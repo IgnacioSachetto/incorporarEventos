@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <title>Programación con Javascript</title>
+
+</head>
+<header>
+    <h1>Simulador Interactivo.</h1>
+    <h2>Alumno: Ignacio Lorenzo Sachetto.</h2>
+    <h2>Profesora:  Natalia Sal.</h2>
+    <h2>Tutor: Ariel Montes.</h2>
+    <h2>Fecha: 16 de Agosto de 2022</h2>
+    <h2>Eventos</h2>
+    <p>Funcionalidades:</p>
+    <ol>
+        <li>Agregar productos a una lista.</li>
+        <li>Verificar los datos de los productos.</li>
+        <li>Seleccionar los productos que desea.</li>
+        <li>Obtener un subTotal y calcular su IVA.</li>
+        <li>Incluirle precio de envio.</li>
+        <li>Obtener un total final por consola.</li>
+        <li>Obtener un total final detallado dentro del sitio web.</li>
+        <li><i>Con la inclusión de "Eventos" dentro del sitio web el usuario deberá ir paso 
+            a paso clickeando los siguientes botones para completar la "compra".
+        </i></li>
+    </ol>
+
+</header>
+    
+<body>
+    <button class="botones" id="mostrarProductos">Mostrar Productos</button>
+    <button class="botones" id="agregarProductos">Agregar Productos</button>
+    <button class="botones" id="seleccionarProductos">Seleccionar Productos</button><br>
+    <button class="botones" id="incluirIVA">Incluir IVA</button>
+    <button class="botones" id="incluirEnvio">Incluir Envio</button>
+
+    <div id="listaProductos"></div>
+
+    <div id="resumenDeCompra">
+        <h2><i>Resumen de Compra</i></h2>
+        <p>Su Total <strong>sin</strong> IVA fue de: <strong id="totalSinIVA">$0</strong></p>
+        <p>Su Total <strong>con</strong> IVA fue de: <strong id="totalConIVA">$0</strong></p>
+        <p>Su Total con Envio fue de: <strong id="totalConEnvio">$0</strong></p>
+    </div>
+
+</body>
+
+
+    <script src="js/flujos.js"></script>
+
+</body>
+</html>

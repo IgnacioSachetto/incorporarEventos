@@ -1,0 +1,10 @@
+.botones{
+    background-color: lightgreen;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    width:120px;
+    height:35px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
